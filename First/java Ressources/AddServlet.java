@@ -13,7 +13,7 @@ public class AddServlet extends HttpServlet{
 		int num1=Integer.parseInt(rqst.getParameter("num1"));
 		int num2=Integer.parseInt(rqst.getParameter("num2"));
 		
-		int sum=num1+num2;
+		int sum=num1+num2+3;
 		
 		
 		try {
